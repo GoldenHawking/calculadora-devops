@@ -23,7 +23,6 @@ public class CalculadoraTest {
     @Test
     public void probarMultiplicacionFalloIntencional() {
         Calculadora calc = new Calculadora();
-        // Le digo a la prueba que 2 * 3 debería dar 99 (fallo provocado)
         assertEquals(6.0, calc.multiplicar(2.0, 3.0), 0.0001);
     }
 }

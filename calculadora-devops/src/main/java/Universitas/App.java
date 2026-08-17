@@ -10,5 +10,6 @@ public class App {
         System.out.println("=== CALCULADORA DEVOPS ===");
         System.out.println("Suma (15 + 5): " + calc.sumar(num1, num2));
         System.out.println("Resta (15 - 5): " + calc.restar(num1, num2));
+        System.out.println("Multiplicación (15 * 5): " + calc.multiplicar(num1, num2));
     }
 }
