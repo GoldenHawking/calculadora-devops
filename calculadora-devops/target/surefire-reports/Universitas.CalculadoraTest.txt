@@ -1,17 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: Universitas.CalculadoraTest
 -------------------------------------------------------------------------------
-Tests run: 3, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.047 s <<< FAILURE! -- in Universitas.CalculadoraTest
-Universitas.CalculadoraTest.probarMultiplicacionFalloIntencional -- Time elapsed: 0.016 s <<< FAILURE!
-org.opentest4j.AssertionFailedError: expected: <99.0> but was: <6.0>
-	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
-	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
-	at org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)
-	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:86)
-	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:81)
-	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:1010)
-	at Universitas.CalculadoraTest.probarMultiplicacionFalloIntencional(CalculadoraTest.java:26)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
-
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.020 s -- in Universitas.CalculadoraTest

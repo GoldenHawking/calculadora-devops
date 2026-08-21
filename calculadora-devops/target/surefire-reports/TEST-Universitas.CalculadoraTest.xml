@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.2" name="Universitas.CalculadoraTest" time="0.047" tests="3" errors="0" skipped="0" failures="1">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="Universitas.CalculadoraTest" time="0.02" tests="3" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="23"/>
     <property name="sun.cpu.isalist" value="amd64"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
-    <property name="java.class.path" value="C:\Users\palyd\OneDrive\Documentos\seminarioActualizacion\proyectoDevOps\calculadora-devops\target\test-classes;C:\Users\palyd\OneDrive\Documentos\seminarioActualizacion\proyectoDevOps\calculadora-devops\target\classes;C:\Users\palyd\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.10.0\junit-jupiter-api-5.10.0.jar;C:\Users\palyd\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\palyd\.m2\repository\org\junit\platform\junit-platform-commons\1.10.0\junit-platform-commons-1.10.0.jar;C:\Users\palyd\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;"/>
+    <property name="java.class.path" value="C:\Users\palyd\OneDrive\Documentos\seminarioActualizacion\proyectoDevOps\calculadora-devops\target\test-classes;C:\Users\palyd\OneDrive\Documentos\seminarioActualizacion\proyectoDevOps\calculadora-devops\target\classes;C:\Users\palyd\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.10.0\junit-jupiter-api-5.10.0.jar;C:\Users\palyd\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\palyd\.m2\repository\org\junit\platform\junit-platform-commons\1.10.0\junit-platform-commons-1.10.0.jar;C:\Users\palyd\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\palyd\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.10.0\junit-jupiter-engine-5.10.0.jar;C:\Users\palyd\.m2\repository\org\junit\platform\junit-platform-engine\1.10.0\junit-platform-engine-1.10.0.jar;"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="user.variant" value=""/>
@@ -15,9 +15,9 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="US"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-23\bin"/>
-    <property name="sun.java.command" value="C:\Users\palyd\AppData\Local\Temp\surefire7933516397265088426\surefirebooter-20260821170604076_3.jar C:\Users\palyd\AppData\Local\Temp\surefire7933516397265088426 2026-08-21T17-06-01_314-jvmRun1 surefire-20260821170604076_1tmp surefire_0-20260821170604076_2tmp"/>
+    <property name="sun.java.command" value="C:\Users\palyd\AppData\Local\Temp\surefire1119311032640913628\surefirebooter-20260821172432729_3.jar C:\Users\palyd\AppData\Local\Temp\surefire1119311032640913628 2026-08-21T17-24-32_402-jvmRun1 surefire-20260821172432729_1tmp surefire_0-20260821172432729_2tmp"/>
     <property name="jdk.debug" value="release"/>
-    <property name="surefire.test.class.path" value="C:\Users\palyd\OneDrive\Documentos\seminarioActualizacion\proyectoDevOps\calculadora-devops\target\test-classes;C:\Users\palyd\OneDrive\Documentos\seminarioActualizacion\proyectoDevOps\calculadora-devops\target\classes;C:\Users\palyd\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.10.0\junit-jupiter-api-5.10.0.jar;C:\Users\palyd\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\palyd\.m2\repository\org\junit\platform\junit-platform-commons\1.10.0\junit-platform-commons-1.10.0.jar;C:\Users\palyd\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;"/>
+    <property name="surefire.test.class.path" value="C:\Users\palyd\OneDrive\Documentos\seminarioActualizacion\proyectoDevOps\calculadora-devops\target\test-classes;C:\Users\palyd\OneDrive\Documentos\seminarioActualizacion\proyectoDevOps\calculadora-devops\target\classes;C:\Users\palyd\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.10.0\junit-jupiter-api-5.10.0.jar;C:\Users\palyd\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\palyd\.m2\repository\org\junit\platform\junit-platform-commons\1.10.0\junit-platform-commons-1.10.0.jar;C:\Users\palyd\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\palyd\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.10.0\junit-jupiter-engine-5.10.0.jar;C:\Users\palyd\.m2\repository\org\junit\platform\junit-platform-engine\1.10.0\junit-platform-engine-1.10.0.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="C:\Users\palyd"/>
     <property name="user.language" value="en"/>
@@ -30,7 +30,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\palyd\AppData\Local\Temp\surefire7933516397265088426\surefirebooter-20260821170604076_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\palyd\AppData\Local\Temp\surefire1119311032640913628\surefirebooter-20260821172432729_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="23.0.1+11-39"/>
@@ -58,20 +58,7 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="67.0"/>
   </properties>
-  <testcase name="probarResta" classname="Universitas.CalculadoraTest" time="0.012"/>
-  <testcase name="probarMultiplicacionFalloIntencional" classname="Universitas.CalculadoraTest" time="0.016">
-    <failure message="expected: &lt;99.0&gt; but was: &lt;6.0&gt;" type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: expected: <99.0> but was: <6.0>
-	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
-	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
-	at org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)
-	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:86)
-	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:81)
-	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:1010)
-	at Universitas.CalculadoraTest.probarMultiplicacionFalloIntencional(CalculadoraTest.java:26)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
-]]></failure>
-  </testcase>
+  <testcase name="probarResta" classname="Universitas.CalculadoraTest" time="0.009"/>
   <testcase name="probarSuma" classname="Universitas.CalculadoraTest" time="0.004"/>
+  <testcase name="probarMultiplicacion" classname="Universitas.CalculadoraTest" time="0.003"/>
 </testsuite>

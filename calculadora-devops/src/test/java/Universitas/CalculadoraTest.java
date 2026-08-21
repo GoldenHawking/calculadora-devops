@@ -20,9 +20,8 @@ public class CalculadoraTest {
     }
 
     @Test
-    public void probarMultiplicacionFalloIntencional() {
+    public void probarMultiplicacion() {
         Calculadora calc = new Calculadora();
-        // Fallo intencional real: 2 * 3 NO es 99.0
-        assertEquals(99.0, calc.multiplicar(2.0, 3.0), 0.0001);
+        assertEquals(6.0, calc.multiplicar(2.0, 3.0), 0.0001);
     }
 }
